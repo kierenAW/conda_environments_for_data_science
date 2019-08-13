@@ -44,46 +44,46 @@ https://conda.io/docs/user-guide/tasks/manage-environments.html
 ## Enviroments
 
 ### E001
-* Jupyter
-* TF GPU
+- Jupyter
+- TF GPU
 
 ### E002
-* All from E001
-* Pytorch
-* Seaborn
+- All from E001
+- Pytorch
+- Seaborn
 
 ### E003
-* All from E002
-* pyro-ppl
-* pip imports not working so import E003 then run <i>pip install pyro-ppl</i>
+- All from E002
+- pyro-ppl
+- pip imports not working so import E003 then run <i>pip install pyro-ppl</i>
 
 ### E004
-* All from E001
-* xlrd
+- All from E001
+- xlrd
 
 ### E005
-* All from E002
-* xlrd
-* pip imports not working so import E005 then run pip install <i>opencv-contrib-python</i>
+- All from E002
+- xlrd
+- pip imports not working so import E005 then run pip install <i>opencv-contrib-python</i>
 
 ### E006
-* Python 3.6
-* Seaborn
-* xlrd
-* Jupyter
-* tensorflow=1.6
-* pip imports not working so import E006 then run <i>pip install opencv-contrib-python</i>
+- Python 3.6
+- Seaborn
+- xlrd
+- Jupyter
+- tensorflow=1.6
+- pip imports not working so import E006 then run <i>pip install opencv-contrib-python</i>
 
 ### E007
-* All from E002
-* xlrd
-* scikit-image
+- All from E002
+- xlrd
+- scikit-image
 
 ### E008
-* All from E007
-* dask
+- All from E007
+- dask
 
 ### E009
-* All from E008
-* plotly
-* jupyterlab
+- All from E008
+- plotly
+- jupyterlab
