@@ -109,4 +109,17 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 ### E009
 - All from E008
 - plotly
-- jupyterlab
+- jupyterlab### E010
+- Clone from E009
+- pandas-profiling 2.3
+- update:
+	* tensorflow to 1.13.1 --> 1.14.0
+	* bokeh 1.2.0--> 1.3.4
+	* cudnn 7.3.1 --> 7.6.0
+	* dask 2.0 --> 2.2
+	* jupyterlab 0.35.6 --> 1.0.5
+	* numpy 1.16.3 --> 1.16.4
+	* pandas 0.24.2 --> 0.25.0
+	* scikit-learn 0.21.2 --> 0.21.3
+	* scipy 1.2.1 --> 1.3.0
+	* pillow 6.0.0 --> 6.1.0
