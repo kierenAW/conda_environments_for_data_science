@@ -19,7 +19,7 @@ The YML files are named as per the environment name followed by the operating sy
 <i>conda env create -f [filename].yml</i>
 
 #### Clone an existing conda environment
-<i> conda create --name <new_env> --clone <existing_env></i>
+<i>conda create --name <new_env> --clone <existing_env></i>
 
 #### Export YML from an existing enviroment
 <i>conda env export -n [venv] > [filename].yml</i>
@@ -109,7 +109,9 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 ### E009
 - All from E008
 - plotly
-- jupyterlab### E010
+- jupyterlab
+
+### E010
 - Clone from E009
 - pandas-profiling 2.3
 - update:
