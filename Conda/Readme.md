@@ -125,3 +125,20 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 	* scikit-learn 0.21.2 --> 0.21.3
 	* scipy 1.2.1 --> 1.3.0
 	* pillow 6.0.0 --> 6.1.0
+
+### E011
+Intended as a generic environment for basic Analytics and Data Science 
+- plotly
+- numpy
+- pandas
+- seaborn
+- matplotlib
+- jupyterlab
+- xlrd
+- scikit-image
+- scikit-learn
+- pillow
+- scipy
+- dask
+- tensorflow (cpu)
+- pandas-profiling
