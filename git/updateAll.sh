@@ -5,7 +5,7 @@ for file in */ ; do
 		echo "-----------------------";
 		echo "";
 		echo "processing $file";
-		(cd "${file}" && git checkout master && git pull)
+		(cd "${file}" && git pull)
 		echo "";
 	fi;
 done
