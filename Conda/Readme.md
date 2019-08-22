@@ -27,7 +27,6 @@ The YML files are named as per the environment name followed by the operating sy
 #### Export YML from an existing enviroment
 <i>conda env export -n [venv] > [filename].yml</i>
 
-
 #### Remove  an existing conda environment
 <i>conda env remove -n [venv]</i>
 
@@ -145,3 +144,11 @@ Intended as a generic environment for basic Analytics and Data Science
 - dask
 - tensorflow (cpu)
 - pandas-profiling
+
+### E012
+- Clone from E010
+- pydotplus
+- py-xgboost
+- fastai
+- update:
+	* dask 2.2 --> 2.3
