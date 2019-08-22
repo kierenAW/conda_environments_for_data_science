@@ -21,6 +21,9 @@ The YML files are named as per the environment name followed by the operating sy
 #### Clone an existing conda environment
 <i>conda create --name <new_env> --clone <existing_env></i>
 
+#### Update all packages in an enviroment
+<i>conda update --all</i>
+
 #### Export YML from an existing enviroment
 <i>conda env export -n [venv] > [filename].yml</i>
 
