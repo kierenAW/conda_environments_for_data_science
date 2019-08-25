@@ -152,3 +152,8 @@ Intended as a generic environment for basic Analytics and Data Science
 - fastai
 - update:
 	* dask 2.2 --> 2.3
+	
+### E013
+- Clone from E012
+- pyarrow
+- cufflinks-py
