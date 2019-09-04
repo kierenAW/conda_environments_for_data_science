@@ -175,5 +175,27 @@ Intended as a generic environment for basic Analytics and Data Science
 - cufflinks-py
 
 ### E014
-- Clone from E013
-- 
+Brand new (not cloned from other) environment with unconstrained versions
+- jupyter
+- jupyterlab
+- pytorch
+- matplotlib
+- xlrd
+- seaborn
+- xlrd
+- plotly
+- numpy
+- pandas-profiling
+- pandas
+- scikit-image
+- scikit-learn
+- scipy
+- pyarrow
+- pillow
+- dask
+- fastai
+- pydotplus
+- py-xgboost
+- pyarrow
+- cufflinks-py
+- keras-gpu
