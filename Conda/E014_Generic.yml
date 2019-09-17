@@ -1,0 +1,32 @@
+name: E014
+channels:
+  - pytorch
+  - fastai
+  - menpo
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter
+  - jupyterlab
+  - pytorch
+  - matplotlib
+  - xlrd
+  - seaborn
+  - xlrd
+  - plotly
+  - numpy
+  - pandas-profiling
+  - pandas
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - pyarrow
+  - pillow
+  - dask
+  - fastai
+  - pydotplus
+  - py-xgboost
+  - pyarrow
+  - cufflinks-py
+  - keras-gpu
+prefix: E014

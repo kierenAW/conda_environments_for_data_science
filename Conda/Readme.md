@@ -1,6 +1,20 @@
 # Conda Environments
 
-Each environment is created in a sequentially numbered environment.
+## I'm new here where do I start?
+The answer depends on what you want to achieve and what packages you need so below are some examples and ideas of where to start, most environments contain Jupyter, pandas and numpy 
+
+#### I want to do some analysis and maybe dabble with running deep learning [inferences](https://en.wikipedia.org/wiki/Inference "inferences") using  [Tensorflow](https://www.tensorflow.org/, "Tensorflow")
+[E011] can be a great place to start, it contains a great selection of packages and is currently being used successfully to deliver some great analaytics in a corporate context. Strongly consider starting here unless you know you need more.
+
+#### I want to do get serious about deep learning with [PyTorch]("https://pytorch.org/")/[Tensorflow](https://www.tensorflow.org/, "Tensorflow") and my GPU needs something to do
+[E014] contains a great list of packages and doesn't constrain versions so you will get the latest that conda provide. Beware of compatibility issues from versions changing.
+
+#### I really need TensorFlow 1.6 and Python 3.6 with open CV
+[E006] provides this exact environment and was used for [DeepLab]("https://github.com/tensorflow/models/tree/master/research/deeplab") training 
+
+
+## More info
+Each environment is created sequentially numbered to allow for versioning and easy tracking.
 
 e.g. <i>Enviroment 001</i> which gets called <i>E001</i>  
 
@@ -9,6 +23,8 @@ Most of the environments are created by importing a previous environment and upd
 ## YML Files
 
 The YML files are named as per the environment name followed by the operating system (eg windows) or "generic" if OS specific packages have been removed and the packages should work on both windows and Linux.
+
+
 
 ## Useful commands
 
@@ -157,3 +173,29 @@ Intended as a generic environment for basic Analytics and Data Science
 - Clone from E012
 - pyarrow
 - cufflinks-py
+
+### E014
+Brand new (not cloned from other) environment with unconstrained versions
+- jupyter
+- jupyterlab
+- pytorch
+- matplotlib
+- xlrd
+- seaborn
+- xlrd
+- plotly
+- numpy
+- pandas-profiling
+- pandas
+- scikit-image
+- scikit-learn
+- scipy
+- pyarrow
+- pillow
+- dask
+- fastai
+- pydotplus
+- py-xgboost
+- pyarrow
+- cufflinks-py
+- keras-gpu
