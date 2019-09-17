@@ -18,4 +18,6 @@ Performs a git pull then git push
 
 ### Ignore images
 \*.png<br>\*.jpg<br>\*.jpeg
- 
+
+# Useful Tools
+[BFG Repo-Cleaner]("https://rtyley.github.io/bfg-repo-cleaner/") "Removes large or troublesome blobs like git-filter-branch does, but faster. And written in Scala"
