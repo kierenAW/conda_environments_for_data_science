@@ -4,9 +4,15 @@ The scripts pushAll.sh and updateAll.sh loop through all sub-directories and per
 
 #### updateAll.sh
 Performs a git pull only
+Runs a <i>git pull</i> then a <i>git push</i>
 
 #### pushAll.sh
 Performs a git pull then git push
+Runs a <i>git pull</i>
+
+#### ResetPullAll.sh
+Runs <i>git checkout -- *</i> then a <i>git pull</i> this has the ffect of removing local changed and repulling from the remote. Take care when using this as you could destroy your own work!
+
 
 # .gitignore Common Features
 
