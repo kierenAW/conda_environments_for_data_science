@@ -1,0 +1,35 @@
+name: E015
+channels:
+  - pytorch
+  - fastai
+  - menpo
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyterlab
+  - pytorch
+  - matplotlib
+  - xlrd
+  - seaborn
+  - xlrd
+  - plotly
+  - numpy
+  - pandas-profiling
+  - pandas
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - pyarrow
+  - pillow
+  - dask
+  - fastai
+  - pydotplus
+  - py-xgboost
+  - cufflinks-py
+  - keras-gpu
+  - nvidia-ml-py3
+  - ffmpeg
+  - opencv
+  - youtube-dl
+  - opencv
+  - tensorboardx
