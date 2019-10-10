@@ -12,6 +12,8 @@ The answer depends on what you want to achieve and what packages you need so bel
 #### I really need TensorFlow 1.6 and Python 3.6 with open CV
 [E006] provides this exact environment and was used for [DeepLab]("https://github.com/tensorflow/models/tree/master/research/deeplab") training 
 
+#### I need r to do my analytics
+[E015] provided rstudio and some packages
 
 ## More info
 Each environment is created sequentially numbered to allow for versioning and easy tracking.
@@ -199,3 +201,36 @@ Brand new (not cloned from other) environment with unconstrained versions
 - pyarrow
 - cufflinks-py
 - keras-gpu
+
+### E015
+Brand new (not cloned from other) environment with unconstrained versions, this expands on E015 and is currently working with Deoldify
+  - Use <i>pip install ffmpeg-python</i> as the conda version is not working at time of writing
+  - jupyterlab
+  - pytorch
+  - matplotlib
+  - xlrd
+  - seaborn
+  - xlrd
+  - plotly
+  - numpy
+  - pandas-profiling
+  - pandas
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - pyarrow
+  - pillow
+  - dask
+  - fastai
+  - pydotplus
+  - py-xgboost
+  - cufflinks-py
+  - keras-gpu
+  - nvidia-ml-py3
+  - ffmpeg
+  - opencv
+  - youtube-dl
+  - opencv
+  - ffmpeg
+  
+
