@@ -25,5 +25,12 @@ Runs <i>git checkout -- *</i> then a <i>git pull</i> this has the ffect of remov
 ### Ignore images
 \*.png<br>\*.jpg<br>\*.jpeg
 
+# git lfs common files to add
+<br> git lfs track "*.pdf"
+<br> git lfs track "*.jpg"
+<br> git lfs track "*.png"
+<br> git lfs track "*.jpeg"
+<br> git lfs track "*.zip"
+
 # Useful Tools
 [BFG Repo-Cleaner]("https://rtyley.github.io/bfg-repo-cleaner/") "Removes large or troublesome blobs like git-filter-branch does, but faster. And written in Scala"
