@@ -13,7 +13,7 @@ The answer depends on what you want to achieve and what packages you need so bel
 [E006] provides this exact environment and was used for [DeepLab]("https://github.com/tensorflow/models/tree/master/research/deeplab") training 
 
 #### I need r to do my analytics
-[E015] provided rstudio and some packages
+This is still not implemented
 
 ## More info
 Each environment is created sequentially numbered to allow for versioning and easy tracking.
