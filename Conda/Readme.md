@@ -7,7 +7,13 @@ The answer depends on what you want to achieve and what packages you need so bel
 [E011] can be a great place to start, it contains a great selection of packages and is currently being used successfully to deliver some great analaytics in a corporate context. Strongly consider starting here unless you know you need more.
 
 #### I want to do get serious about deep learning with [PyTorch]("https://pytorch.org/")/[Tensorflow](https://www.tensorflow.org/, "Tensorflow") and my GPU needs something to do
-[E014] contains a great list of packages and doesn't constrain versions so you will get the latest that conda provide. Beware of compatibility issues from versions changing.
+[E015] contains a great list of packages and doesn't constrain versions so you will get the latest that conda provide. Beware of compatibility issues from versions changing.
+
+### I need FastAI and PyTorch
+[E015] might be the answer to your need
+
+### I want to use TensorFlow 2
+[E016] contains TF2 and other useful packages
 
 #### I really need TensorFlow 1.6 and Python 3.6 with open CV
 [E006] provides this exact environment and was used for [DeepLab]("https://github.com/tensorflow/models/tree/master/research/deeplab") training 
@@ -244,4 +250,3 @@ New freshly created ENV to allow TensorFlow 2 gpuy to be used. It supplies:
   - scikit-learn
   - scipy
   
-
