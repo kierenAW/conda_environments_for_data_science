@@ -209,7 +209,7 @@ Brand new (not cloned from other) environment with unconstrained versions
 - keras-gpu
 
 ### E015
-Brand new (not cloned from other) environment with unconstrained versions, this expands on E015 and is currently working with Deoldify
+Brand new (not cloned from other) environment with unconstrained versions, this expands on E014 and is currently working with Deoldify.
   - Use <i>pip install ffmpeg-python</i> as the conda version is not working at time of writing
   - jupyterlab
   - pytorch
