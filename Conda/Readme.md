@@ -240,7 +240,8 @@ Brand new (not cloned from other) environment with unconstrained versions, this 
   - ffmpeg
 
 ### E016
-New freshly created ENV to allow TensorFlow 2 gpuy to be used. It supplies:
+New freshly created ENV to allow TensorFlow 2 GPU to be used.
+It supplies:
   - TensorFlow 2
   - Pillow
   - pyarrow
