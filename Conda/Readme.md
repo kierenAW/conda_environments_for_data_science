@@ -251,3 +251,9 @@ It supplies:
   - scikit-learn
   - scipy
   
+### E017 
+Clone of E015 with packages to aid data acquisition and handling:
+  - datapackage see https://github.com/frictionlessdata/datapackage-py 
+  - urllib3
+  - indexed_gzip
+  - beautifulsoup4
