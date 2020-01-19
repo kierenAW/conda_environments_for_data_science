@@ -88,7 +88,7 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 - win_inet_pton - https://pypi.org/project/win-inet-pton/
 - pyreadline - https://pypi.org/project/pyreadline/
 - pywinpty - https://github.com/spyder-ide/pywinpty
-
+- icc_rt - Intel(R) C++ | Visual Fortran Compiler for Windows - https://anaconda.org/intel/icc_rt 
 
 ## Enviroments
 
@@ -257,3 +257,4 @@ Clone of E015 with packages to aid data acquisition and handling:
   - urllib3
   - indexed_gzip
   - beautifulsoup4
+
