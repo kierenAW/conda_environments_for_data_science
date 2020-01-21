@@ -258,3 +258,5 @@ Clone of E015 with packages to aid data acquisition and handling:
   - indexed_gzip
   - beautifulsoup4
 
+### E018 
+Clone of E017 with update to all packages, and pytorch forced to version 1.4 resulting in CUDA tools to 10.1
