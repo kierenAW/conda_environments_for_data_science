@@ -4,7 +4,7 @@
 The answer depends on what you want to achieve and what packages you need so below are some examples and ideas of where to start, most environments contain Jupyter, pandas and numpy 
 
 #### I want to do some analysis and maybe dabble with running deep learning [inferences](https://en.wikipedia.org/wiki/Inference "inferences") using  [Tensorflow](https://www.tensorflow.org/, "Tensorflow")
-[E011] can be a great place to start, it contains a great selection of packages and is currently being used successfully to deliver some great analaytics in a corporate context. Strongly consider starting here unless you know you need more.
+[E011] can be a great place to start, it contains a great selection of packages and is currently being used successfully to deliver some great analytics in a corporate context. Strongly consider starting here unless you know you need more.
 
 #### I want to do get serious about deep learning with [PyTorch]("https://pytorch.org/")/[Tensorflow](https://www.tensorflow.org/, "Tensorflow") and my GPU needs something to do
 [E015] contains a great list of packages and doesn't constrain versions so you will get the latest that conda provide. Beware of compatibility issues from versions changing.
@@ -18,7 +18,7 @@ The answer depends on what you want to achieve and what packages you need so bel
 #### I really need TensorFlow 1.6 and Python 3.6 with open CV
 [E006] provides this exact environment and was used for [DeepLab]("https://github.com/tensorflow/models/tree/master/research/deeplab") training 
 
-#### I need r to do my analytics
+#### I need R to do my analytics
 This is still not implemented
 
 ## More info
@@ -32,11 +32,9 @@ Most of the environments are created by importing a previous environment and upd
 
 The YML files are named as per the environment name followed by the operating system (eg windows) or "generic" if OS specific packages have been removed and the packages should work on both windows and Linux.
 
-
-
 ## Useful commands
 
-#### Create a Conda Enviroment with defult imports:
+#### Create a Conda Enviroment with default imports:
 <i>conda create --name [env]</i>
 
 #### Create a enviroment from a yml file
@@ -56,11 +54,6 @@ The YML files are named as per the environment name followed by the operating sy
 
 #### List all discoverable environments:
 <i>conda info --envs</i>
-
-
-#### Regex to find the hashes at the end of the yml files:
-=[A-Z]+.*$
-
 
 #### More information can be found at
 
