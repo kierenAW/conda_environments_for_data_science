@@ -1,7 +1,7 @@
 # Conda Environments
 
-## How to I add my own changes to an environment?
-Once created environments are immutable, any alterations/additions to the please submit via a pull request with the new environment numbered sequentially from the highest number environment below.
+## How do I add my own changes to an environment?
+Once created and published we consider environments to be immutable. When making any alterations or additions please submit the new environment via a pull request with the new environment numbered sequentially from the highest number environment below.
 
 ## I'm new here where do I start?
 The answer depends on what you want to achieve and what packages you need so below are some examples and ideas of where to start, most environments contain Jupyter, pandas and numpy 
