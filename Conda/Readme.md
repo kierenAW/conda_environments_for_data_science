@@ -266,3 +266,14 @@ Based on a clone of E019 with alpha-vantage and qandl packages added, tensorflow
 ### E021
 
 ### E022
+
+### E023
+Built from scratch to provide:
+ - Tensorflow GPU 2.1 
+ - Tensorboard 2.2
+ - Keras GPU 2.3
+ - MLFlow  1.11
+ - Databricks-cli
+ - Jupyterlab 2.2
+ - Numpy 1.19
+ - Pandas 1.1
