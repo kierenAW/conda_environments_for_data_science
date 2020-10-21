@@ -264,6 +264,10 @@ Clone of E018 with wandb added via pip
 Based on a clone of E019 with alpha-vantage and qandl packages added, tensorflow 2.1.0 GPU and pytorch CPU.
 
 ### E021
+Rebuilt based on E020 to provide:
+ - Tensorflow GPU  2.1
+ - Pytorch GPU  1.3
+ - MLFlow GPU 
 
 ### E022
 
