@@ -88,121 +88,60 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 
 ## Enviroments
 
-### E001
-- Jupyter
-- TF GPU
+### E023
+Built from scratch to provide:
+ - Tensorflow GPU 2.1 
+ - Tensorboard 2.2
+ - Keras GPU 2.3
+ - MLFlow  1.11
+ - Databricks-cli
+ - Jupyterlab 2.2
+ - Numpy 1.19
+ - Pandas 1.1
 
-### E002
-- All from E001
-- Pytorch
-- Seaborn
+### E022
+Built from scratch to provide:
+ - Pytorch GPU  1.6
+ - MLFlow  1.11
+ - TensorboardX 2.1
+ - Jupyterlab 2.2
+ - Databricks-cli
+ - Numpy 1.19
+ - Pandas 1.1
 
-### E003
-- All from E002
-- pyro-ppl
-- pip imports not working so import E003 then run <i>pip install pyro-ppl</i>
+### E021
+Rebuilt based on E020 to provide:
+ - Tensorflow GPU  2.1
+ - Pytorch GPU  1.3
+ - MLFlow GPU 
 
-### E004
-- All from E001
-- xlrd
+### E020
+Based on a clone of E019 with alpha-vantage and qandl packages added, tensorflow 2.1.0 GPU and pytorch CPU.
 
-### E005
-- All from E002
-- xlrd
-- pip imports not working so import E005 then run pip install <i>opencv-contrib-python</i>
+### E019
+Clone of E018 with wandb added via pip
 
-### E006
-- Python 3.6
-- Seaborn
-- xlrd
-- Jupyter
-- tensorflow=1.6
-- pip imports not working so import E006 then run <i>pip install opencv-contrib-python</i>
+### E018 
+Clone of E017 with update to all packages, and pytorch forced to version 1.4 resulting in CUDA tools to 10.1
 
-### E007
-- All from E002
-- xlrd
-- scikit-image
+### E017 
+Clone of E015 with packages to aid data acquisition and handling:
+  - datapackage see https://github.com/frictionlessdata/datapackage-py 
+  - urllib3
+  - indexed_gzip
+  - beautifulsoup4
 
-### E008
-- All from E007
-- dask
-
-### E009
-- All from E008
-- plotly
-- jupyterlab
-
-### E010
-- Clone from E009
-- pandas-profiling 2.3
-- update:
-	* tensorflow to 1.13.1 --> 1.14.0
-	* bokeh 1.2.0--> 1.3.4
-	* cudnn 7.3.1 --> 7.6.0
-	* dask 2.0 --> 2.2
-	* jupyterlab 0.35.6 --> 1.0.5
-	* numpy 1.16.3 --> 1.16.4
-	* pandas 0.24.2 --> 0.25.0
-	* scikit-learn 0.21.2 --> 0.21.3
-	* scipy 1.2.1 --> 1.3.0
-	* pillow 6.0.0 --> 6.1.0
-
-### E011
-Intended as a generic environment for basic Analytics and Data Science 
-- plotly
-- numpy
-- pandas
-- seaborn
-- matplotlib
-- jupyterlab
-- xlrd
-- scikit-image
-- scikit-learn
-- pillow
-- scipy
-- dask
-- tensorflow (cpu)
-- pandas-profiling
-
-### E012
-- Clone from E010
-- pydotplus
-- py-xgboost
-- fastai
-- update:
-	* dask 2.2 --> 2.3
-	
-### E013
-- Clone from E012
-- pyarrow
-- cufflinks-py
-
-### E014
-Brand new (not cloned from other) environment with unconstrained versions
-- jupyter
-- jupyterlab
-- pytorch
-- matplotlib
-- xlrd
-- seaborn
-- xlrd
-- plotly
-- numpy
-- pandas-profiling
-- pandas
-- scikit-image
-- scikit-learn
-- scipy
-- pyarrow
-- pillow
-- dask
-- fastai
-- pydotplus
-- py-xgboost
-- pyarrow
-- cufflinks-py
-- keras-gpu
+### E016
+New freshly created ENV to allow TensorFlow 2 GPU to be used.
+It supplies:
+  - TensorFlow 2
+  - Pillow
+  - pyarrow
+  - pandas-profiling
+  - dask
+  - scikit-image
+  - scikit-learn
+  - scipy
 
 ### E015
 Brand new (not cloned from other) environment with unconstrained versions, this expands on E014 and is currently working with Deoldify.
@@ -235,57 +174,118 @@ Brand new (not cloned from other) environment with unconstrained versions, this 
   - opencv
   - ffmpeg
 
-### E016
-New freshly created ENV to allow TensorFlow 2 GPU to be used.
-It supplies:
-  - TensorFlow 2
-  - Pillow
-  - pyarrow
-  - pandas-profiling
-  - dask
-  - scikit-image
-  - scikit-learn
-  - scipy
+### E014
+Brand new (not cloned from other) environment with unconstrained versions
+- jupyter
+- jupyterlab
+- pytorch
+- matplotlib
+- xlrd
+- seaborn
+- xlrd
+- plotly
+- numpy
+- pandas-profiling
+- pandas
+- scikit-image
+- scikit-learn
+- scipy
+- pyarrow
+- pillow
+- dask
+- fastai
+- pydotplus
+- py-xgboost
+- pyarrow
+- cufflinks-py
+- keras-gpu
   
-### E017 
-Clone of E015 with packages to aid data acquisition and handling:
-  - datapackage see https://github.com/frictionlessdata/datapackage-py 
-  - urllib3
-  - indexed_gzip
-  - beautifulsoup4
+### E013
+- Clone from E012
+- pyarrow
+- cufflinks-py
 
-### E018 
-Clone of E017 with update to all packages, and pytorch forced to version 1.4 resulting in CUDA tools to 10.1
+### E012
+- Clone from E010
+- pydotplus
+- py-xgboost
+- fastai
+- update:
+	* dask 2.2 --> 2.3
+	
+### E011
+Intended as a generic environment for basic Analytics and Data Science 
+- plotly
+- numpy
+- pandas
+- seaborn
+- matplotlib
+- jupyterlab
+- xlrd
+- scikit-image
+- scikit-learn
+- pillow
+- scipy
+- dask
+- tensorflow (cpu)
+- pandas-profiling
 
-### E019
-Clone of E018 with wandb added via pip
+### E010
+- Clone from E009
+- pandas-profiling 2.3
+- update:
+	* tensorflow to 1.13.1 --> 1.14.0
+	* bokeh 1.2.0--> 1.3.4
+	* cudnn 7.3.1 --> 7.6.0
+	* dask 2.0 --> 2.2
+	* jupyterlab 0.35.6 --> 1.0.5
+	* numpy 1.16.3 --> 1.16.4
+	* pandas 0.24.2 --> 0.25.0
+	* scikit-learn 0.21.2 --> 0.21.3
+	* scipy 1.2.1 --> 1.3.0
+	* pillow 6.0.0 --> 6.1.0
 
-### E020
-Based on a clone of E019 with alpha-vantage and qandl packages added, tensorflow 2.1.0 GPU and pytorch CPU.
+### E009
+- All from E008
+- plotly
+- jupyterlab
 
-### E021
-Rebuilt based on E020 to provide:
- - Tensorflow GPU  2.1
- - Pytorch GPU  1.3
- - MLFlow GPU 
+### E008
+- All from E007
+- dask
 
-### E022
-Built from scratch to provide:
- - Pytorch GPU  1.6
- - MLFlow  1.11
- - TensorboardX 2.1
- - Jupyterlab 2.2
- - Databricks-cli
- - Numpy 1.19
- - Pandas 1.1
+### E007
+- All from E002
+- xlrd
+- scikit-image
 
-### E023
-Built from scratch to provide:
- - Tensorflow GPU 2.1 
- - Tensorboard 2.2
- - Keras GPU 2.3
- - MLFlow  1.11
- - Databricks-cli
- - Jupyterlab 2.2
- - Numpy 1.19
- - Pandas 1.1
+### E006
+- Python 3.6
+- Seaborn
+- xlrd
+- Jupyter
+- tensorflow=1.6
+- pip imports not working so import E006 then run <i>pip install opencv-contrib-python</i>
+
+### E005
+- All from E002
+- xlrd
+- pip imports not working so import E005 then run pip install <i>opencv-contrib-python</i>
+
+### E004
+- All from E001
+- xlrd
+
+### E003
+- All from E002
+- pyro-ppl
+- pip imports not working so import E003 then run <i>pip install pyro-ppl</i>
+
+### E002
+- All from E001
+- Pytorch
+- Seaborn
+
+### E001
+- Jupyter
+- TF GPU
