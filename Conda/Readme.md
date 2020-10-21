@@ -270,6 +270,14 @@ Rebuilt based on E020 to provide:
  - MLFlow GPU 
 
 ### E022
+Built from scratch to provide:
+ - Pytorch GPU  1.6
+ - MLFlow  1.11
+ - TensorboardX 2.1
+ - Jupyterlab 2.2
+ - Databricks-cli
+ - Numpy 1.19
+ - Pandas 1.1
 
 ### E023
 Built from scratch to provide:
