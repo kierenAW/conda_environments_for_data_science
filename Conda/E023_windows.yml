@@ -115,7 +115,7 @@ dependencies:
   - m2w64-libwinpthread-git=5.0.0.4634.697f757=2
   - markdown=3.3=py37_0
   - markupsafe=1.1.1=py37h0013d47_2
-  - matplotlib=3.3.2=0
+  - matplotlib=3.3.2=py37hc8dfbb8_1
   - matplotlib-base=3.3.2=py37h35e8a6e_0
   - mistune=0.8.4=py37h4ab8f01_1002
   - mkl=2019.4=245
@@ -145,7 +145,7 @@ dependencies:
   - parquet-cpp=1.5.1=2
   - parso=0.7.1=pyh9f0ad1d_0
   - pickleshare=0.7.5=py_1003
-  - pillow=7.2.0=py37hc826c6e_2
+  - pillow=8.0.0=py37hca74424_0
   - pip=20.2.3=py_0
   - plotly=4.11.0=pyh9f0ad1d_0
   - prometheus_client=0.8.0=pyh9f0ad1d_0

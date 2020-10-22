@@ -107,21 +107,15 @@ dependencies:
   - libwebp-base=1.1.0
   - libzopfli=1.0.3
   - lz4-c=1.9.2
-  - m2w64-gcc-libgfortran=5.3.0=6
-  - m2w64-gcc-libs=5.3.0=7
-  - m2w64-gcc-libs-core=5.3.0=7
-  - m2w64-gmp=6.1.0=2
-  - m2w64-libwinpthread-git=5.0.0.4634.697f757=2
   - markdown=3.3
   - markupsafe=1.1.1
-  - matplotlib=3.3.2=0
+  - matplotlib=3.3.2
   - matplotlib-base=3.3.2
   - mistune=0.8.4
   - mkl=2019.4=245
   - mkl-service=2.3.0
   - mkl_fft=1.2.0
   - mkl_random=1.1.0
-  - msys2-conda-epoch=20160418=1
   - multidict=4.7.6
   - nbclient=0.5.0
   - nbconvert=6.0.7
@@ -144,7 +138,7 @@ dependencies:
   - parquet-cpp=1.5.1=2
   - parso=0.7.1
   - pickleshare=0.7.5
-  - pillow=7.2.0
+  - pillow=8.0.0
   - pip=20.2.3
   - plotly=4.11.0
   - prometheus_client=0.8.0

@@ -98,6 +98,8 @@ Built from scratch to provide:
  - Jupyterlab 2.2
  - Numpy 1.19
  - Pandas 1.1
+ - Matplotlib 3.3
+ - Pillow 8.0 
 
 ### E022
 Built from scratch to provide:
