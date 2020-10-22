@@ -1,6 +1,7 @@
 name: E022
 channels:
   - pytorch
+  - anaconda
   - menpo
   - conda-forge
   - defaults
@@ -30,6 +31,7 @@ dependencies:
   - configparser=5.0.1=py_0
   - cryptography=3.1.1=py38h0e640b1_1
   - cudatoolkit=10.2.89=h74a9793_1
+  - cycler=0.10.0=py_2
   - databricks-cli=0.9.1=py_0
   - decorator=4.4.2=py_0
   - defusedxml=0.6.0=py_0
@@ -37,9 +39,11 @@ dependencies:
   - docker-pycreds=0.4.0=py_0
   - entrypoints=0.3=py38h32f6830_1002
   - flask=1.1.2=pyh9f0ad1d_0
+  - freetype=2.10.3=hd328e21_0
   - gitdb=4.0.5=py_0
   - gitpython=3.1.9=py_0
   - gorilla=0.3.0=py_0
+  - icu=58.2=ha925a31_3
   - idna=2.10=pyh9f0ad1d_0
   - importlib-metadata=2.0.0=py_1
   - importlib_metadata=2.0.0=1
@@ -51,6 +55,7 @@ dependencies:
   - itsdangerous=1.1.0=py_0
   - jedi=0.17.2=py38h32f6830_1
   - jinja2=2.11.2=pyh9f0ad1d_0
+  - jpeg=9b=vc14h4d7706e_1
   - json5=0.9.5=pyh9f0ad1d_0
   - jsonschema=3.2.0=py_2
   - jupyter_client=6.1.7=py_0
@@ -58,12 +63,16 @@ dependencies:
   - jupyterlab=2.2.8=py_0
   - jupyterlab_pygments=0.1.2=pyh9f0ad1d_0
   - jupyterlab_server=1.2.0=py_0
+  - kiwisolver=1.2.0=py38h95a2b95_1
   - libblas=3.8.0=16_mkl
   - libcblas=3.8.0=16_mkl
   - liblapack=3.8.0=16_mkl
   - liblapacke=3.8.0=16_mkl
+  - libpng=1.6.37=h2a8f88b_0
   - libprotobuf=3.13.0.1=h200bbdf_0
   - libsodium=1.0.18=h62dcd97_1
+  - libtiff=4.1.0=h56a325e_1
+  - lz4-c=1.9.2=hf4a77e7_3
   - m2w64-gcc-libgfortran=5.3.0=6
   - m2w64-gcc-libs=5.3.0=7
   - m2w64-gcc-libs-core=5.3.0=7
@@ -71,6 +80,8 @@ dependencies:
   - m2w64-libwinpthread-git=5.0.0.4634.697f757=2
   - mako=1.1.3=pyh9f0ad1d_0
   - markupsafe=1.1.1=py38hab1e662_2
+  - matplotlib=3.3.2=py38h32f6830_1
+  - matplotlib-base=3.3.2=py38h6584adb_1
   - mistune=0.8.4=py38h1e8a9f7_1002
   - mkl=2020.1=216
   - mlflow=1.11.0=py38h32f6830_1
@@ -84,6 +95,7 @@ dependencies:
   - notebook=6.1.4=py38h32f6830_1
   - numpy=1.19.2=py38hdf1ac2f_1
   - oauthlib=3.0.1=py_0
+  - olefile=0.46=py_0
   - openssl=1.1.1h=he774522_0
   - packaging=20.4=pyh9f0ad1d_0
   - pandas=1.1.3=py38h3ef910b_2
@@ -91,6 +103,7 @@ dependencies:
   - pandocfilters=1.4.2=py_1
   - parso=0.7.1=pyh9f0ad1d_0
   - pickleshare=0.7.5=py_1003
+  - pillow=8.0.0=py38hca74424_0
   - pip=20.2.4=py_0
   - prometheus_client=0.8.0=pyh9f0ad1d_0
   - prometheus_flask_exporter=0.18.1=pyh9f0ad1d_0
@@ -101,6 +114,7 @@ dependencies:
   - pyjwt=1.7.1=py_0
   - pyopenssl=19.1.0=py_1
   - pyparsing=2.4.7=pyh9f0ad1d_0
+  - pyqt=5.9.2=py38ha925a31_4
   - pyrsistent=0.17.3=py38h1e8a9f7_1
   - pysocks=1.7.1=py38h9bdc248_2
   - python=3.8.6=h60c2a47_0_cpython
@@ -113,11 +127,13 @@ dependencies:
   - pywinpty=0.5.7=py38h32f6830_1
   - pyyaml=5.3.1=py38hab1e662_1
   - pyzmq=19.0.2=py38h77b9d75_2
+  - qt=5.9.7=vc14h73c81de_07
   - querystring_parser=1.2.4=py_0
   - requests=2.24.0=pyh9f0ad1d_0
   - requests-oauthlib=1.3.0=pyh9f0ad1d_0
   - send2trash=1.5.0=py_0
   - setuptools=49.6.0=py38h9bdc248_2
+  - sip=4.19.13=py38ha925a31_0
   - six=1.15.0=pyh9f0ad1d_0
   - smmap=3.0.4=pyh9f0ad1d_0
   - sqlalchemy=1.3.13=py38hfa6e2cd_0
@@ -127,6 +143,8 @@ dependencies:
   - tensorboardx=2.1=py_0
   - terminado=0.9.1=py38h32f6830_1
   - testpath=0.4.4=py_0
+  - tk=8.6.7=vc14hb68737d_1
+  - torchvision=0.7.0=py38_cu102
   - tornado=6.0.4=py38h1e8a9f7_2
   - traitlets=5.0.5=py_0
   - urllib3=1.25.11=py_0
@@ -141,7 +159,9 @@ dependencies:
   - win_inet_pton=1.1.0=py38h32f6830_1
   - wincertstore=0.2=py38h32f6830_1005
   - winpty=0.4.3=4
+  - xz=5.2.5=h62dcd97_0
   - yaml=0.2.5=he774522_0
   - zeromq=4.3.2=ha925a31_4
   - zipp=3.3.1=py_0
   - zlib=1.2.11=h62dcd97_1010
+  - zstd=1.4.4=ha9fde0e_3

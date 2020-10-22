@@ -108,6 +108,10 @@ Built from scratch to provide:
  - Databricks-cli
  - Numpy 1.19
  - Pandas 1.1
+ - Torchvision 0.7
+ - Matplotlib 3.3
+ - Pillow 8.0
+  
 
 ### E021
 Rebuilt based on E020 to provide:
