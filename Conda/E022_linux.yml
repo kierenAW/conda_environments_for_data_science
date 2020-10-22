@@ -1,6 +1,7 @@
 name: E022
 channels:
   - pytorch
+  - anaconda
   - conda-forge
   - fastai
   - defaults
@@ -22,8 +23,8 @@ dependencies:
   - bleach=3.2.1=pyh9f0ad1d_0
   - blinker=1.4=py_1
   - brotlipy=0.7.0=py38h8df0ef7_1001
-  - ca-certificates=2020.6.20=hecda079_0
-  - certifi=2020.6.20=py38h924ce5b_2
+  - ca-certificates=2020.10.14=0
+  - certifi=2020.6.20=py38_0
   - cffi=1.14.3=py38h1bdcb99_1
   - chardet=3.0.4=py38h924ce5b_1008
   - click=7.1.2=pyh9f0ad1d_0
@@ -31,17 +32,27 @@ dependencies:
   - configparser=5.0.1=py_0
   - cryptography=3.1.1=py38hb23e4d4_1
   - cudatoolkit=10.2.89=hfd86e86_1
+  - cycler=0.10.0=py_2
   - databricks-cli=0.9.1=py_0
+  - dbus=1.13.16=hb2f20db_0
   - decorator=4.4.2=py_0
   - defusedxml=0.6.0=py_0
   - docker-py=4.3.1=py38h32f6830_1
   - docker-pycreds=0.4.0=py_0
   - entrypoints=0.3=py38h32f6830_1002
+  - expat=2.2.9=he1b5a44_2
   - flask=1.1.2=pyh9f0ad1d_0
+  - fontconfig=2.13.1=he4413a7_1000
+  - freetype=2.10.4=h5ab3b9f_0
+  - gettext=0.19.8.1=hf34092f_1004
   - gitdb=4.0.5=py_0
   - gitpython=3.1.9=py_0
+  - glib=2.66.2=he1b5a44_0
   - gorilla=0.3.0=py_0
+  - gst-plugins-base=1.14.5=h0935bb2_2
+  - gstreamer=1.14.5=h36ae1b5_2
   - gunicorn=20.0.4=py38h32f6830_2
+  - icu=58.2=hf484d3e_1000
   - idna=2.10=pyh9f0ad1d_0
   - importlib-metadata=2.0.0=py_1
   - importlib_metadata=2.0.0=1
@@ -52,6 +63,7 @@ dependencies:
   - itsdangerous=1.1.0=py_0
   - jedi=0.17.2=py38h32f6830_1
   - jinja2=2.11.2=pyh9f0ad1d_0
+  - jpeg=9b=habf39ab_1
   - json5=0.9.5=pyh9f0ad1d_0
   - jsonschema=3.2.0=py_2
   - jupyter_client=6.1.7=py_0
@@ -59,15 +71,27 @@ dependencies:
   - jupyterlab=2.2.8=py_0
   - jupyterlab_pygments=0.1.2=pyh9f0ad1d_0
   - jupyterlab_server=1.2.0=py_0
+  - kiwisolver=1.2.0=py38hbf85e49_1
+  - lcms2=2.11=h396b838_0
   - ld_impl_linux-64=2.35=h769bd43_9
   - libffi=3.2.1=he1b5a44_1007
   - libgcc-ng=9.3.0=h5dbcf3e_17
+  - libglib=2.66.2=h0dae87d_0
+  - libiconv=1.16=h516909a_0
+  - libpng=1.6.37=hbc83047_0
   - libprotobuf=3.13.0.1=h8b12597_0
   - libsodium=1.0.18=h516909a_1
   - libstdcxx-ng=9.3.0=h2ae2ef3_17
+  - libtiff=4.1.0=h2733197_1
+  - libuuid=2.32.1=h14c3975_1000
+  - libxcb=1.13=h14c3975_1002
+  - libxml2=2.9.9=h13577e0_2
   - llvm-openmp=11.0.0=hfc4b9b4_1
+  - lz4-c=1.9.2=heb0550a_3
   - mako=1.1.3=pyh9f0ad1d_0
   - markupsafe=1.1.1=py38h8df0ef7_2
+  - matplotlib=3.3.2=py38h32f6830_1
+  - matplotlib-base=3.3.2=py38h4d1ce4f_1
   - mistune=0.8.4=py38h1e0a361_1002
   - mkl=2020.2=256
   - mkl-service=2.3.0=py38h1e0a361_1
@@ -85,25 +109,30 @@ dependencies:
   - numpy=1.19.1=py38hbc911f0_0
   - numpy-base=1.19.1=py38hfa32c7d_0
   - oauthlib=3.0.1=py_0
-  - openssl=1.1.1h=h516909a_0
+  - olefile=0.46=py_0
+  - openssl=1.1.1h=h7b6447c_0
   - packaging=20.4=pyh9f0ad1d_0
   - pandas=1.1.3=py38hddd6c8b_2
   - pandoc=2.11.0.2=hd18ef5c_0
   - pandocfilters=1.4.2=py_1
   - parso=0.7.1=pyh9f0ad1d_0
+  - pcre=8.44=he1b5a44_0
   - pexpect=4.8.0=pyh9f0ad1d_2
   - pickleshare=0.7.5=py_1003
+  - pillow=8.0.0=py38h9a89aac_0
   - pip=20.2.4=py_0
   - prometheus_client=0.8.0=pyh9f0ad1d_0
   - prometheus_flask_exporter=0.18.1=pyh9f0ad1d_0
   - prompt-toolkit=3.0.8=py_0
   - protobuf=3.13.0.1=py38h950e882_1
+  - pthread-stubs=0.4=h14c3975_1001
   - ptyprocess=0.6.0=py_1001
   - pycparser=2.20=pyh9f0ad1d_2
   - pygments=2.7.1=py_0
   - pyjwt=1.7.1=py_0
   - pyopenssl=19.1.0=py_1
   - pyparsing=2.4.7=pyh9f0ad1d_0
+  - pyqt=5.9.2=py38h05f1152_4
   - pyrsistent=0.17.3=py38h1e0a361_1
   - pysocks=1.7.1=py38h924ce5b_2
   - python=3.8.6=h852b56e_0_cpython
@@ -114,12 +143,14 @@ dependencies:
   - pytz=2020.1=pyh9f0ad1d_0
   - pyyaml=5.3.1=py38h8df0ef7_1
   - pyzmq=19.0.2=py38ha71036d_2
+  - qt=5.9.7=h5867ecd_1
   - querystring_parser=1.2.4=py_0
   - readline=8.0=he28a2e2_2
   - requests=2.24.0=pyh9f0ad1d_0
   - requests-oauthlib=1.3.0=pyh9f0ad1d_0
   - send2trash=1.5.0=py_0
   - setuptools=49.6.0=py38h924ce5b_2
+  - sip=4.19.13=py38he6710b0_0
   - six=1.15.0=pyh9f0ad1d_0
   - smmap=3.0.4=pyh9f0ad1d_0
   - sqlalchemy=1.3.13=py38h516909a_0
@@ -138,8 +169,12 @@ dependencies:
   - websocket-client=0.57.0=py38h32f6830_3
   - werkzeug=1.0.1=pyh9f0ad1d_0
   - wheel=0.35.1=pyh9f0ad1d_0
+  - xorg-libxau=1.0.9=h14c3975_0
+  - xorg-libxdmcp=1.1.3=h516909a_0
   - xz=5.2.5=h516909a_1
   - yaml=0.2.5=h516909a_0
   - zeromq=4.3.3=he1b5a44_2
   - zipp=3.3.1=py_0
   - zlib=1.2.11=h516909a_1010
+  - zstd=1.4.4=h0b5b093_3
+
