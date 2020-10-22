@@ -92,11 +92,11 @@ dependencies:
   - lcms2=2.11
   - lerc=2.2
   - libaec=1.0.4
-  - libblas=3.8.0=14_mkl
-  - libcblas=3.8.0=14_mkl
+  - libblas=3.8.0
+  - libcblas=3.8.0
   - libclang=10.0.1
   - libcurl=7.71.1
-  - liblapack=3.8.0=14_mkl
+  - liblapack=3.8.0
   - libpng=1.6.37
   - libprotobuf=3.13.0
   - libsodium=1.0.18
@@ -112,17 +112,13 @@ dependencies:
   - matplotlib=3.3.2
   - matplotlib-base=3.3.2
   - mistune=0.8.4
-  - mkl=2019.4=245
-  - mkl-service=2.3.0
-  - mkl_fft=1.2.0
-  - mkl_random=1.1.0
   - multidict=4.7.6
   - nbclient=0.5.0
   - nbconvert=6.0.7
   - nbformat=5.0.7
   - nest-asyncio=1.4.1
   - networkx=2.5
-  - nodejs=14.13.1=0
+  - nodejs=14.13
   - notebook=6.1.4
   - numpy=1.19.2
   - numpy-base=1.19.1
@@ -135,7 +131,7 @@ dependencies:
   - pandas=1.1.3
   - pandoc=2.11
   - pandocfilters=1.4.2
-  - parquet-cpp=1.5.1=2
+  - parquet-cpp=1.5.1
   - parso=0.7.1
   - pickleshare=0.7.5
   - pillow=8.0.0
@@ -193,7 +189,6 @@ dependencies:
   - traitlets=5.0.4
   - tzdata=2020b
   - urllib3=1.25.10
-  - vs2015_runtime=14.16.27012
   - wcwidth=0.2.5
   - webencodings=0.5.1
   - werkzeug=0.16.1
