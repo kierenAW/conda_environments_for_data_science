@@ -88,6 +88,24 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 
 ## Enviroments
 
+### E025
+Built from scratch to provide:
+ - Tensorflow CPU=2.3 (tensorflow-gpu 2.2 is highest version available on anaconda channel at time of env creation)
+ - Tensorboard=2.3
+ - MLFlow=1.11
+ - Databricks-cli=0.9
+ - Dask=2.3
+ - Pillow=8
+ - P
+ - Pyarrow
+ - Numpy
+ - Pandas
+ - Jupyterlab
+ - Matplotlib
+ - H5py
+ - Scikit-image
+ - Scikit-learn
+ - Scipy
 
 ### E024
 Built from scratch to provide:
@@ -109,7 +127,6 @@ Built from scratch to provide:
  - Scikit-image
  - Scikit-learn
  - Scipy
-
 
 ### E023
 Built from scratch to provide:
@@ -136,7 +153,6 @@ Built from scratch to provide:
  - Torchvision 0.7
  - Matplotlib 3.3
  - Pillow 8.0
-  
 
 ### E021
 Rebuilt based on E020 to provide:
