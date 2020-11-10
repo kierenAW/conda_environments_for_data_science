@@ -88,6 +88,29 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 
 ## Enviroments
 
+
+### E024
+Built from scratch to provide:
+ - FastAI=2.1
+ - Pytorch=1.6
+ - Torchvision 
+ - TensorboardX=2.1 
+ - MLFlow
+ - Databricks-cli
+ - Dask 
+ - Pillow
+ - Pandas Profiling
+ - Pyarrow
+ - Numpy
+ - Pandas
+ - Jupyterlab
+ - Matplotlib
+ - H5py
+ - Scikit-image
+ - Scikit-learn
+ - Scipy
+
+
 ### E023
 Built from scratch to provide:
  - Tensorflow GPU 2.1 
