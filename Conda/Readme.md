@@ -1,10 +1,10 @@
 # Conda Environments
 
-## How do I add my own changes to an environment?
-Once created and published we consider environments to be immutable. When making any alterations or additions please submit the new environment via a pull request with the new environment numbered sequentially from the highest number environment below.
-
 ## I'm new here where do I start?
 The answer depends on what you want to achieve and what packages you need so below are some examples and ideas of where to start, most environments contain Jupyter, pandas and numpy 
+
+## How do I add my own changes to an environment?
+Once created and published we consider environments to be immutable. When making any alterations or additions please submit the new environment via a pull request with the new environment numbered sequentially from the highest number environment below.
 
 #### I want to do some analysis and maybe dabble with running deep learning [inferences](https://en.wikipedia.org/wiki/Inference "inferences") using  [Tensorflow](https://www.tensorflow.org/, "Tensorflow")
 [E011] can be a great place to start, it contains a great selection of packages and is currently being used successfully to deliver some great analytics in a corporate context. Strongly consider starting here unless you know you need more.
