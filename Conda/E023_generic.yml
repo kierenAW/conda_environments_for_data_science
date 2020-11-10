@@ -226,7 +226,6 @@ dependencies:
     - pyqt5-sip==4.19.18
     - pyqtwebengine==5.12.1
     - python-editor==1.0.4
-    - pywin32==227
     - querystring-parser==1.2.4
     - sentry-sdk==0.18.0
     - shortuuid==1.0.1

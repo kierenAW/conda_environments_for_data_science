@@ -13,10 +13,10 @@ Once created and published we consider environments to be immutable. When making
 [E015] contains a great list of packages and doesn't constrain versions so you will get the latest that conda provide. Beware of compatibility issues from versions changing.
 
 ### I need FastAI and PyTorch
-[E015] might be the answer to your need
+[E020] might be the answer to your need
 
 ### I want to use TensorFlow 2
-[E016] contains TF2 and other useful packages
+[E023] contains TF2 and other useful packages
 
 #### I really need TensorFlow 1.6 and Python 3.6 with open CV
 [E006] provides this exact environment and was used for [DeepLab]("https://github.com/tensorflow/models/tree/master/research/deeplab") training 
