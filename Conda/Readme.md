@@ -99,7 +99,7 @@ Built from scratch to provide:
  - Databricks-cli=0.9
  - Dask=2.3
  - Pillow=8
- - P
+ - Pandas Profiling
  - Pyarrow
  - Numpy
  - Pandas
