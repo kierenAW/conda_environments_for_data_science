@@ -59,7 +59,7 @@ The YML files are named as per the environment name followed by the operating sy
 <i>conda info --envs</i>
 
 #### Add an ENV kernel to Jupyter (when needed)
-python -m ipykernel install --user
+<i>python -m ipykernel install --user</i>
 
 #### More information can be found at
 
