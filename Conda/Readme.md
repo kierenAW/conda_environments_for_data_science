@@ -58,6 +58,9 @@ The YML files are named as per the environment name followed by the operating sy
 #### List all discoverable environments:
 <i>conda info --envs</i>
 
+#### Add an ENV kernel to Jupyter (when needed)
+python -m ipykernel install --user
+
 #### More information can be found at
 
 https://conda.io/docs/user-guide/tasks/manage-environments.html
