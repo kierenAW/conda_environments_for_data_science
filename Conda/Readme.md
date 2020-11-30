@@ -73,7 +73,7 @@ https://conda.io/docs/user-guide/tasks/manage-environments.html
 Removing the hashes from a yml file aids the imports into Linux where the compiled hash values are different.
 
 #### The following packages appear to be windows specific:
-- msys2-conda-epoch - https://www.msys2.org/
+- [msys2-conda-epoch](https://www.msys2.org/)
 - m2w64* including:
 	* m2w64-gcc-libgfortran
 	* m2w64-libwinpthread-git
@@ -81,13 +81,13 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 	* m2w64-libwinpthread-git
 	* m2w64-gmp
 	* m2w64-gcc-libs-core
-- vc - https://github.com/conda/conda/wiki/VC-features
-- wincertstore - https://pypi.org/project/wincertstore/
-- winpty - https://github.com/rprichard/winpty
-- win_inet_pton - https://pypi.org/project/win-inet-pton/
-- pyreadline - https://pypi.org/project/pyreadline/
-- pywinpty - https://github.com/spyder-ide/pywinpty
-- icc_rt - Intel(R) C++ | Visual Fortran Compiler for Windows - https://anaconda.org/intel/icc_rt 
+- [vc](https://github.com/conda/conda/wiki/VC-features)
+- [wincertstore](https://pypi.org/project/wincertstore/)
+- [winpty](https://github.com/rprichard/winpty)
+- [win_inet_pton](https://pypi.org/project/win-inet-pton/)
+- [pyreadline](https://pypi.org/project/pyreadline/)
+- [pywinpty](https://github.com/spyder-ide/pywinpty)
+- [icc_rt - Intel(R) C++ | Visual Fortran Compiler for Windows](https://anaconda.org/intel/icc_rt)
 
 #### The following packages appear to be *nix  specific:
 - [libedit](https://anaconda.org/anaconda/libedit)
