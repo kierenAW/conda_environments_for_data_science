@@ -89,6 +89,9 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 - pywinpty - https://github.com/spyder-ide/pywinpty
 - icc_rt - Intel(R) C++ | Visual Fortran Compiler for Windows - https://anaconda.org/intel/icc_rt 
 
+#### The following packages appear to be *nix  specific:
+- [libedit](https://anaconda.org/anaconda/libedit)
+
 ## Enviroments
 
 ### E025
