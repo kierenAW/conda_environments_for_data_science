@@ -91,6 +91,7 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 
 #### The following packages appear to be *nix  specific:
 - [libedit](https://anaconda.org/anaconda/libedit)
+- [libnghttp2 ](https://anaconda.org/main/libnghttp2)
 
 ## Enviroments
 
