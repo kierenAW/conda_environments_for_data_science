@@ -93,6 +93,10 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 - [libedit](https://anaconda.org/anaconda/libedit)
 - [libnghttp2 ](https://anaconda.org/main/libnghttp2)
 
+## Package Conflicts
+ - torchvision 0.2.2 does not support pillow 7+ due to removal of PILLOW_VERSION. S	ee [Github Issue](https://github.com/pytorch/vision/issues/1712)
+
+
 ## Enviroments
 
 ### E027
