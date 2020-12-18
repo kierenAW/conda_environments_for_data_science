@@ -95,6 +95,27 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 
 ## Enviroments
 
+### E027
+Intended for use of fast AI and MLFlow together 
+ - fastai=1.0
+ - pytorch
+ - mlflow=1.12
+ - pillow=8
+ - pandas-profiling
+ - dask
+ - pyarrow 
+ - numpy
+ - pandas
+ - matplotlib
+ - jupyterlab
+ - tensorboardx
+ - scikit-learn
+ - scikit-image
+ - scipy
+ - h5py
+ - databricks-cli
+ - sqlite
+
 ### E026
 Built from scratch as data handling env to work with [Delta Lake](https://docs.delta.io/latest/quick-start.html) and Apache Spark (Pyspark)
  - Pyarrow
