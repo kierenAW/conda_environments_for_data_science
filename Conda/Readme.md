@@ -95,6 +95,36 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 
 ## Enviroments
 
+### E026
+Built from scratch as data handling env to work with [Delta Lake](https://docs.delta.io/latest/quick-start.html) and Apache Spark (Pyspark)
+ - Pyarrow
+ - Pandas
+ - Numpy
+ - Jupyterlab
+ - Matplotlib
+ - H5py
+ - Scikit-image
+ - Scikit-learn
+ - MLFlow=1.12
+ - Pillow=8.0
+ - youtube-dl
+ - pandas-profiling
+ - dask
+ - beautifulsoup4
+ - indexed_gzip
+ - urllib3
+ - Pyarrow
+ - pytrends
+ - alpha-vantage
+ - quandl
+ - plotly
+ - scipy
+ - scikit-image
+ - scikit-learn
+ - seaborn
+ - xlrd
+ - newspaper3k
+
 ### E025
 Built from scratch to provide:
  - Tensorflow CPU=2.3 (tensorflow-gpu 2.2 is highest version available on anaconda channel at time of env creation)
