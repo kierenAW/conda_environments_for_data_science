@@ -13,7 +13,7 @@ Once created and published we consider environments to be immutable. When making
 [E015] contains a great list of packages and doesn't constrain versions so you will get the latest that conda provide. Beware of compatibility issues from versions changing.
 
 ### I need FastAI and PyTorch
-[E020] might be the answer to your need
+[E020] might be the answer to your need for Fast AI 1 or [E024] for Fast AI 2
 
 ### I want to use TensorFlow 2
 [E023] contains TF2 and other useful packages
