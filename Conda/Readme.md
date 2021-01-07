@@ -99,6 +99,11 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 
 ## Enviroments
 
+
+### E029
+Clone of E026 with xlrd added
+
+
 ### E028
 Built from scratch to provide:
  - pytorch=1.7
