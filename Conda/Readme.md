@@ -99,6 +99,25 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 
 ## Enviroments
 
+### E030
+Built from scratch to provide:
+ - tensorflow-gpu=2.3
+ - tensorboard=2.3
+ - tensorflow-gpu=2.3 (as of 2021-01-07 tensorflow-gpu=2.3 only available for windows)
+ - keras=2.4.3
+ - tensorboard
+ - scikit-image
+ - scikit-learn
+ - scipy jupyterlab
+ - h5py=2.10 dask=2.3
+ - pillow=8
+ - pandas-profiling
+ - pyarrow
+ - numpy
+ - pandas
+ - mlflow=1.13
+ - Databricks-cli=0.9
+ - matplotlib
 
 ### E029
 Clone of E026 with xlrd added
