@@ -99,6 +99,28 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 
 ## Enviroments
 
+### E028
+Built from scratch to provide:
+ - pytorch=1.7
+ - torchvision=0.8
+ - pytorch-lightning
+ - mlflow=1.12
+ - pillow=6.2.1 
+ - pandas-profiling
+ - dask
+ - pyarrow 
+ - numpy
+ - pandas
+ - matplotlib
+ - jupyterlab
+ - tensorboardx
+ - scikit-learn
+ - scikit-image
+ - scipy
+ - h5py
+ - sqlite
+ - databricks-cli
+
 ### E027
 Intended for use of fast AI and MLFlow together 
  - fastai=1.0
