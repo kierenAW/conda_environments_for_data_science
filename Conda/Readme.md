@@ -99,6 +99,9 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 
 ## Enviroments
 
+### E031
+Built from scratch for use with [labelme](https://github.com/wkentaro/labelme)
+
 ### E030
 Built from scratch to provide:
  - tensorflow-gpu=2.3
