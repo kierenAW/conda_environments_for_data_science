@@ -92,7 +92,7 @@ dependencies:
   - importlib_metadata=3.3.0=hd8ed1ab_2
   - iniconfig=1.1.1=pyh9f0ad1d_0
   - ipykernel=5.4.2=py38h81c977d_0
-  - ipython=7.19.0=py38h81c977d_0
+  - ipython=7.19.0=py38hb070fc8_0
   - ipython_genutils=0.2.0=py_1
   - ipywidgets=7.6.2=pyhd3deb0d_1
   - isodate=0.6.0=py_1
