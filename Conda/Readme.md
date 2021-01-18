@@ -99,6 +99,29 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 
 ## Enviroments
 
+### E032
+Built from scratch (similar to E028) to provide:
+ - pytorch=1.7
+ - torchvision=0.8
+ - pytorch-lightning
+ - mlflow=1.13
+ - pillow=6.2.1
+ - pandas-profiling
+ - dask
+ - pyarrow
+ - numpy
+ - pandas
+ - matplotlib
+ - jupyterlab
+ - tensorboardx
+ - scikit-learn
+ - scikit-image
+ - scipy
+ - h5py
+ - sqlite
+ - databricks-cli
+ - pycocotools (as of 2021-01-15 only available for linux, can be used for computing the evaluation IOU metrics)
+
 ### E031
 Built from scratch for use with [labelme](https://github.com/wkentaro/labelme)
 
