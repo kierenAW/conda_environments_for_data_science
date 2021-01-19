@@ -56,7 +56,7 @@ dependencies:
   - cudatoolkit=11.0.3=h15472ef_6
   - cycler=0.10.0=py_2
   - cython=0.29.21=py37hcd2ae1e_2
-  - cytoolz=0.11.0=py37h5e8e339_2
+  - cytoolz=0.11.0
   - dask=2020.12.0=pyhd8ed1ab_0
   - dask-core=2020.12.0=pyhd8ed1ab_0
   - databricks-cli=0.9.1=py_0
