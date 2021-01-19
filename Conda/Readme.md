@@ -27,7 +27,7 @@ This is still not implemented
 ## More info
 Each environment is created sequentially numbered to allow for versioning and easy tracking.
 
-e.g. <i>Enviroment 001</i> which gets called <i>E001</i>  
+e.g. <i>Enviroment 001</i> which gets called <i>E001</i>
 
 Most of the environments are created by importing a previous environment and updating and adding additional packages. 
 
