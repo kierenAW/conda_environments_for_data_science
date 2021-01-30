@@ -135,7 +135,8 @@ Built from scratch to provide:
  - scikit-image
  - scikit-learn
  - scipy jupyterlab
- - h5py=2.10 dask=2.3
+ - h5py=2.10
+ - dask=2.3
  - pillow=8
  - pandas-profiling
  - pyarrow
@@ -219,7 +220,6 @@ Built from scratch as data handling env to work with [Delta Lake](https://docs.d
  - scikit-image
  - scikit-learn
  - seaborn
- - xlrd
  - newspaper3k
 
 ### E025
@@ -351,7 +351,6 @@ Brand new (not cloned from other) environment with unconstrained versions, this 
   - opencv
   - youtube-dl
   - opencv
-  - ffmpeg
 
 ### E014
 Brand new (not cloned from other) environment with unconstrained versions
