@@ -101,6 +101,37 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 
 ### E033
 New env from scratch to provide data wrangling and collection tools
+ - graphviz (anaconda)
+ - dask (anaconda)
+ - pandas-profiling (anaconda)
+ - fastparquet (anaconda)
+ - seaborn (anaconda)
+ - conda-forge (conda-forge)
+ - nodejs (conda-forge)
+ - newspaper3k (conda-forge)
+ - numpy (conda-forge)
+ - pandas (conda-forge)
+ - jupyterlab (conda-forge)
+ - matplotlib (conda-forge)
+ - h5py (conda-forge)
+ - scikit-image (conda-forge)
+ - scikit-learn (conda-forge)
+ - pillow (conda-forge)
+ - requests (conda-forge)
+ - youtube-dl (conda-forge)
+ - mlflow=1.13 (conda-forge)
+ - pyarrow (conda-forge)
+ - beautifulsoup4 (conda-forge)
+ - indexed_gzip (conda-forge)
+ - xlrd (conda-forge)
+ - quandl (conda-forge)
+ - urllib3 (conda-forge)
+ - scipy (conda-forge)
+ - pytrends (conda-forge)
+ - quandl (conda-forge)
+ - plotly (conda-forge)
+ - sqlite (conda-forge)
+ - databricks-cli (conda-forge)
 ### E032
 Built from scratch (similar to E028) to provide:
  - pytorch=1.7
