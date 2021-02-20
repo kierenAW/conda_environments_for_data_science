@@ -16,7 +16,7 @@ Once created and published we consider environments to be immutable. When making
 [E020] might be the answer to your need for Fast AI 1 or [E024] for Fast AI 2
 
 ### I want to use TensorFlow 2
-[E023] contains TF2 and other useful packages
+[E030] contains TF2 and other useful packages
 
 #### I really need TensorFlow 1.6 and Python 3.6 with open CV
 [E006] provides this exact environment and was used for [DeepLab]("https://github.com/tensorflow/models/tree/master/research/deeplab") training 
