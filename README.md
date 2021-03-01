@@ -4,7 +4,7 @@ This repository holds environment configuration files used for Data Science and 
 
 ## Conda Environments
 
-The <i></i> folder contains anaconda environment yml files and a read me that describes at a high level their contents.
+The <i>yml</i> folder contains anaconda environment yml files and a read me that describes at a high level their contents.
 
 ## I'm new here where do I start?
 The answer depends on what you want to achieve and what packages you need so below are some examples and ideas of where to start, most environments contain Jupyter, pandas and numpy 
