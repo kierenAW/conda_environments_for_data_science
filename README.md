@@ -138,8 +138,8 @@ New env from scratch to provide data wrangling and collection tools
  - plotly (conda-forge)
  - sqlite (conda-forge)
  - databricks-cli (conda-forge)
- - 
-Later: alpha-vantage
+ - alpha-vantage (pip)
+ - tinysegmenter (pip)
 
 ### E032
 Built from scratch (similar to E028) to provide:
