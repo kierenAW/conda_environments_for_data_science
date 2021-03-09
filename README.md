@@ -108,6 +108,30 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 
 ## Enviroments
 
+### E034
+ - [mamba](https://github.com/mamba-org/mamba)
+ - nodejs (anaconda)
+ - numpy (anaconda)
+ - pandas (anaconda)
+ - jupyterlab (anaconda)
+ - matplotlib (anaconda)
+ - h5py (anaconda)
+ - scikit-image (anaconda)
+ - scikit-learn (anaconda)
+ - pillow (anaconda)
+ - tensorflow-gpu=2.4 (anaconda) 
+ - mlflow=1.14 (conda-forge)
+ - pyarrow (conda-forge)
+ - mlflow=1.14 (conda-forge)
+ - pyarrow (conda-forge)
+ - indexed_gzip (conda-forge)
+ - xlrd (conda-forge)
+ - scipy (conda-forge)
+ - plotly (conda-forge)
+ - sqlite (conda-forge)
+ - databricks-cli (conda-forge)
+ - tensorboard=2.4.1 (conda-forge)
+
 ### E033
 New env from scratch to provide data wrangling and collection tools
  - graphviz (anaconda)
