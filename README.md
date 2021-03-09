@@ -102,6 +102,9 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 ## Package Conflicts
  - torchvision 0.2.2 does not support pillow 7+ due to removal of PILLOW_VERSION. See [Github Issue](https://github.com/pytorch/vision/issues/1712)
 
+## Using Mamba
+<i>conda install mamba -n base -c conda-forge<i/>
+<i>mamba install xtensor-r -c conda-forge<i/>
 
 ## Enviroments
 
