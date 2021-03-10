@@ -104,7 +104,7 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 
 ## Using Mamba
 <i>conda install mamba -n base -c conda-forge<i/>
-<i>mamba install xtensor-r -c conda-forge<i/>
+<i>mamba install [package_name] -c conda-forge<i/>
 
 ## Enviroments
 
