@@ -108,6 +108,43 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 
 ## Enviroments
 
+### E035
+Created from scrach as data handler:
+ - [mamba](https://github.com/mamba-org/mamba) (conda-forge)
+ - pyautogui (conda-forge)
+ - newspaper3k (conda-forge)
+ - pyautogui (conda-forge)
+ - numpy (conda-forge)
+ - pandas (conda-forge)
+ - jupyterlab (conda-forge)
+ - matplotlib (conda-forge)
+ - h5py (conda-forge)
+ - scikit-image (conda-forge)
+ - scikit-learn (conda-forge)
+ - pillow (conda-forge)
+ - requests (conda-forge)
+ - youtube-dl (conda-forge)
+ - mlflow=1.14 (conda-forge)
+ - pyarrow (conda-forge)
+ - beautifulsoup4 (conda-forge)
+ - indexed_gzip (conda-forge)
+ - xlrd (conda-forge)
+ - quandl (conda-forge)
+ - urllib3 (conda-forge)
+ - scipy (conda-forge)
+ - pytrends (conda-forge)
+ - quandl (conda-forge)
+ - plotly (conda-forge)
+ - sqlite (conda-forge)
+ - databricks-cli (conda-forge)
+ - nodejs (conda-forge)
+ - graphviz (anaconda)
+ - dask (anaconda)
+ - pandas-profiling (anaconda)
+ - fastparquet (anaconda)
+ - seaborn
+
+
 ### E034
 Created from scrach using mamba top get TF2.4.1 for GPU. 
  - [mamba](https://github.com/mamba-org/mamba)
@@ -124,7 +161,7 @@ Created from scrach using mamba top get TF2.4.1 for GPU.
  - sqlite (conda-forge)
  - databricks-cli (conda-forge)
  - nodejs (anaconda)
- - numpy (anaconda)
+ - numpy=1.19.5 (anaconda) (version needed by TF)
  - pandas (anaconda)
  - jupyterlab (anaconda)
  - matplotlib (anaconda)
