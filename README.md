@@ -138,6 +138,7 @@ Created from scrach as data handler:
  - sqlite (conda-forge)
  - databricks-cli (conda-forge)
  - nodejs (conda-forge)
+ - pandas-profiling (conda-forge)
  - graphviz (anaconda)
  - dask (anaconda)
  - pandas-profiling (anaconda)
