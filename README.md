@@ -108,6 +108,15 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 
 ## Enviroments
 
+### E036
+Created from scrach to create QR Codes
+conda-forge:
+ - segno
+ - qrcode-artistic
+ - pillow
+ - jupyterlab
+ - nodejs
+
 ### E035
 Created from scrach as data handler:
  - [mamba](https://github.com/mamba-org/mamba) (conda-forge)
