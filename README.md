@@ -109,11 +109,52 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 ## Enviroments
 
 ### E037
-Created from scrach to provide pytorch 1.8. Created with the following commands:
-1. conda install mamba python=3.9
-1. mamba install -c pytorch pytorch=1.8.1 torchvision=0.9.1
-1. mamba install dask pillow mlflow=1.16 pillow pandas-profiling pyarrow numpy pandas matplotlib jupyterlab tensorboardx scikit-learn scikit-image scipy h5py sqlite databricks-cli pycocotools matplotlib pyarrow indexed_gzip xlrd plotly nodejs graphviz fastparquet seaborn
+Created from scrach to provide pytorch 1.8.
+Using channels:
+1. pytorch
+1. conda-forge
+1. anaconda
 
+Packages:
+ - mamba
+ - python=3.9
+ - pytorch=1.8.1
+ - torchvision=0.9.1
+ - mlflow=1.16
+ - pillow
+ - tensorboardx
+ - pillow
+ - databricks-cli
+ - pycocotools
+ - indexed_gzip
+ - dask
+ - pillow
+ - pandas-profiling
+ - pyarrow
+ - numpy
+ - pandas
+ - matplotlib
+ - jupyterlab
+ - scikit-learn
+ - sqlite
+ - xlrd
+ - plotly
+ - nodejs
+ - graphviz
+ - fastparquet
+ - seaborn
+ - dask
+ - pillow
+ - scikit-image
+ - scipy
+ - h5py
+ - matplotlib
+ - pyarrow
+ - plotly
+ - nodejs
+ - graphviz
+ - fastparquet
+ - seaborn
 
 ### E036
 Created from scrach to create QR Codes
