@@ -71,6 +71,10 @@ The YML files are named as per the environment name followed by the operating sy
 
 https://conda.io/docs/user-guide/tasks/manage-environments.html
 
+## Using Mamba
+<i>conda install mamba -n base -c conda-forge<i/>
+<i>mamba install [package_name] -c conda-forge<i/>
+
 ## Windows to Linux Diffrences 
 
 #### Regex to find the hashes at the end of the yml files:
@@ -102,9 +106,7 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 ## Package Conflicts
  - torchvision 0.2.2 does not support pillow 7+ due to removal of PILLOW_VERSION. See [Github Issue](https://github.com/pytorch/vision/issues/1712)
 
-## Using Mamba
-<i>conda install mamba -n base -c conda-forge<i/>
-<i>mamba install [package_name] -c conda-forge<i/>
+
 
 ## Enviroments
 
