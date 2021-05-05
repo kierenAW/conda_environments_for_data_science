@@ -109,7 +109,7 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 ## Enviroments
 
 ### E037
-Created from scrach to provide pytorch 1.8.
+Created from scrach to provide pytorch 1.8.1
 Using channels:
 1. pytorch
 1. conda-forge
@@ -122,6 +122,7 @@ Packages:
  - torchvision=0.9.1
  - mlflow=1.16
  - pillow
+ - tensorboard
  - tensorboardx
  - pillow
  - databricks-cli
