@@ -62,9 +62,13 @@ The YML files are named as per the environment name followed by the operating sy
 
 https://conda.io/docs/user-guide/tasks/manage-environments.html
 
+#### Add Channel
+<i>conda config --add channels [channel]
+
 ## Using Mamba
 <i>conda install mamba -n base -c conda-forge<i/>
 <i>mamba install [package_name] -c conda-forge<i/>
+
 
 ## Windows to Linux Diffrences 
 
