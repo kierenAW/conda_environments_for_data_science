@@ -153,6 +153,7 @@ Packages:
  - graphviz
  - fastparquet
  - seaborn
+ - jupyter_contrib_nbextensions 
 
 ### E036
 Created from scrach to create QR Codes
