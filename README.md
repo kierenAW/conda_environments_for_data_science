@@ -134,6 +134,7 @@ Packages:
  - matplotlib
  - jupyterlab
  - scikit-learn
+ - scikit-image
  - sqlite
  - xlrd
  - plotly
@@ -143,16 +144,9 @@ Packages:
  - seaborn
  - dask
  - pillow
- - scikit-image
  - scipy
  - h5py
  - matplotlib
- - pyarrow
- - plotly
- - nodejs
- - graphviz
- - fastparquet
- - seaborn
  - jupyter_contrib_nbextensions 
 
 ### E036
