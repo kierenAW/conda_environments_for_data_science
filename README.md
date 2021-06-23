@@ -106,7 +106,7 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 ## Enviroments
 
 ### E038
-Created from scrach to provide fastai 2.3
+Created from scrach to provide fastai 2.3 and fastbook
 Using channels:
 1. pytorch
 1. conda-forge
