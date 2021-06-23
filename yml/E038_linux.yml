@@ -1,9 +1,9 @@
 name: E038
 channels:
+  - fastai
   - pytorch
   - conda-forge
   - anaconda
-  - fastai
   - defaults
 dependencies:
   - _libgcc_mutex=0.1=conda_forge
