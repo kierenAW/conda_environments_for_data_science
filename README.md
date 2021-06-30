@@ -106,14 +106,14 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 ## Enviroments
 
 ### E038
-Created from scrach to provide fastai 2.3 and fastbook
+Created from scrach to provide fastai 2.4 and fastbook
 Using channels:
 1. pytorch
 1. conda-forge
 1. anaconda
  - mamba
  - python=3.9
- - mlflow=1.17
+ - mlflow=1.18
  - pillow
  - tensorboardx
  - databricks-cli
