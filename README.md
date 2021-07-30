@@ -24,7 +24,7 @@ Once created and published we consider environments to be immutable. When making
 ## More info
 Each environment is created sequentially numbered to allow for versioning and easy tracking.
 
-e.g. <i>Enviroment 001</i> which gets called <i>E001</i>
+e.g. <i>Environment 001</i> which gets called <i>E001</i>
 
 Most of the environments are created by importing a previous environment and updating and adding additional packages. 
 
@@ -34,10 +34,10 @@ The YML files are named as per the environment name followed by the operating sy
 
 ## Useful commands
 
-#### Create a Conda Enviroment with default imports:
+#### Create a Conda Environment with default imports:
 <i>conda create --name [env]</i>
 
-#### Create a enviroment from a yml file
+#### Create a environment from a yml file
 <i>conda env create -f [filename].yml</i>
 
 #### Clone an existing conda environment
@@ -102,11 +102,10 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 - torchvision 0.2.2 does not support pillow 7+ due to removal of PILLOW_VERSION. See [Github Issue](https://github.com/pytorch/vision/issues/1712)
 
 
-
 ## Enviroments
 
 ### E038
-Created from scrach to provide fastai 2.4 and fastbook
+Created from scratch to provide fastai 2.4 and fastbook
 Using channels:
 1. pytorch
 1. conda-forge
