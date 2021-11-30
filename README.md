@@ -126,8 +126,10 @@ To provide :
 * databricks-cli
 * pycocotools
 * indexed_gzip
-* numpy pandas
-* dask pyarrow
+* numpy
+* pandas
+* dask
+* pyarrow
 * fastparquet
 * h5py
 * pandas-profiling
