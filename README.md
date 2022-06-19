@@ -270,7 +270,6 @@ conda-forge:
 ### E035
 Created from scrach as data handler:
  - [mamba](https://github.com/mamba-org/mamba) (conda-forge)
- - pyautogui (conda-forge)
  - newspaper3k (conda-forge)
  - pyautogui (conda-forge)
  - numpy (conda-forge)
@@ -292,7 +291,6 @@ Created from scrach as data handler:
  - urllib3 (conda-forge)
  - scipy (conda-forge)
  - pytrends (conda-forge)
- - quandl (conda-forge)
  - plotly (conda-forge)
  - sqlite (conda-forge)
  - databricks-cli (conda-forge)
@@ -300,7 +298,6 @@ Created from scrach as data handler:
  - pandas-profiling (conda-forge)
  - graphviz (anaconda)
  - dask (anaconda)
- - pandas-profiling (anaconda)
  - fastparquet (anaconda)
  - seaborn
 
