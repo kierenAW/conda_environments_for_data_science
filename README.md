@@ -104,6 +104,52 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 
 ## Enviroments
 
+
+
+### E042
+Created from scratch using channels:
+1. pytorch
+1. conda-forge
+1. anaconda
+
+To provide :
+* mamba
+* python
+* openjdk
+* ipykernel
+* newspaper3k
+* numpy
+* pandas
+* jupyterlab
+* matplotlib
+* seaborn
+* fastparquet
+* pandas-profiling
+* graphviz
+* dask
+* nodejs
+* sqlite
+* plotly
+* quandl
+* scipy
+* xlrd
+* h5py
+* scikit-image
+* scikit-learn
+* pillow requests
+* youtube-dl
+* mlflow
+* pyarrow
+* beautifulsoup4
+* indexed_gzip
+* urllib3
+* pytrends
+* pyautogui
+* black
+* pyspark=3.2
+
+
+ 
 ### E041
 Created from scratch using channels:
 1. pytorch
