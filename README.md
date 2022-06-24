@@ -104,11 +104,12 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 
 ## Enviroments
 
+[MinkowskiEngine](https://github.com/NVIDIA/MinkowskiEngine#cuda-11x)
+ pip install -U git+https://github.com/NVIDIA/MinkowskiEngine -v --no-deps --install-option="--blas_include_dirs=${CONDA_PREFIX}/include" --install-option="--blas=openblas"
 
 
 ### E042
 Created from scratch using channels:
-1. pytorch
 1. conda-forge
 1. anaconda
 
