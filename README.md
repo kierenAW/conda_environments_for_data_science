@@ -109,6 +109,7 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 
 
 ### E042
+
 Created from scratch using channels:
 1. conda-forge
 1. anaconda
@@ -120,6 +121,9 @@ To provide :
 * ipykernel
 * newspaper3k
 * numpy
+* alpha_vantage
+* yfinance
+* pandas-datareader
 * pandas
 * jupyterlab
 * matplotlib
