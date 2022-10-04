@@ -1,6 +1,7 @@
 # Conda Environments for Data Science
 
-This repository holds environment configuration files used for Data Science and Machine Learning.
+This repository holds conda environment configuration files used for Data Engineering, Data Science (including Machine Learning)
+
 
 ## Conda Environments
 
