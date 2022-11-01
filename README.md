@@ -111,6 +111,16 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 [MinkowskiEngine](https://github.com/NVIDIA/MinkowskiEngine#cuda-11x)
  pip install -U git+https://github.com/NVIDIA/MinkowskiEngine -v --no-deps --install-option="--blas_include_dirs=${CONDA_PREFIX}/include" --install-option="--blas=openblas"
 
+### E043
+Copy of E041 with updated packages and HuggingFace transformers added used with gpt-neo.
+To provides:
+* pytorch=1.11
+* python=3.9
+* cuda=11.5
+* cudnn=8.3.2
+* pip:
+	* tokenizers==0.13
+	* transformers==4.23
 
 ### E042
 
