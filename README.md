@@ -1,6 +1,6 @@
 # Conda Environments for Data Science
 
-This repository holds conda environment configuration files used for Data Engineering and Data Science (including Machine Learning). The idea is to create standardised environments that can be used across projects allowing a manageable set of conda environments on each computer. 
+This repository holds conda environment configuration files used for Data Engineering and Data Science (including Machine Learning). The idea is to create standardised environments which can be used across projects allowing a smaller and more easily manageable set of conda environments on each computer as well as allowing easy collaboration between team members.
 
 New environments are created as packages are added, removed or upgraded. Once an environment spec is created and published as a yml file we consider environments to be immutable and changes require a new environment to be created.
 
