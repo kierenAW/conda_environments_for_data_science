@@ -6,12 +6,19 @@ New environments are created as packages are added, removed or upgraded. Once an
 
 The naming convection is <i>E</i> (for Environment) followed by a 3 digit number in sequence following on from the most recent environment eg <i>E041</i> and <i>E042</i>.
 
+## I'm new here where do I start?
+If you are part of a team Select an environment that suits your needs, 
+
+The answer depends on what you want to achieve and what packages you need so below are some examples and ideas of where to start, most environments contain Jupyter, pandas and numpy 
+
+
+
+Data collection and handling, this environment contains various libraries to obtain data from a range of sources (make sure to check terms of the 3rd party sites before using)
+
 ## Conda Environments
 
 The <i>yml</i> folder contains anaconda environment yml files and a read me that describes at a high level their contents.
 
-## I'm new here where do I start?
-The answer depends on what you want to achieve and what packages you need so below are some examples and ideas of where to start, most environments contain Jupyter, pandas and numpy 
 
 ## How do I add my own changes to an environment?
 Once created and published we consider environments to be immutable. When making any alterations or additions please submit the new environment via a pull request with the new environment numbered sequentially from the highest number environment below.
@@ -121,6 +128,8 @@ To provides:
 * pip:
 	* tokenizers==0.13
 	* transformers==4.23
+
+
 
 ### E042
 
