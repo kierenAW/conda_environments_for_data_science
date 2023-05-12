@@ -15,6 +15,10 @@ The answer depends on what you want to achieve and what packages you need so bel
 
 Data collection and handling, this environment contains various libraries to obtain data from a range of sources (make sure to check terms of the 3rd party sites before using)
 
+## Docker Install
+
+If you are setting up the environment in a Docker container you might find these [Docker install instructions](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) helpful.
+
 ## Conda Environments
 
 The <i>yml</i> folder contains anaconda environment yml files and a read me that describes at a high level their contents.
