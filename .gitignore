@@ -1,3 +1,6 @@
+# Exclude File System attributes store
+*.DS_Store
+
 *.ipynb_checkpoints*
 *.pyc
 /.idea/*
