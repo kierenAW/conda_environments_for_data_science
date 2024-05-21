@@ -7,11 +7,10 @@ New environments are created when packages are added, removed, or upgraded. Once
 The naming convention for environments follows the format <i>E</i> (for Environment) followed by a three-digit number in sequence, continuing from the most recent environment. For example, <i>E001</i> is followed by <i>E002</i>.
 
 ## I'm new here where do I start?
+
 If you are part of a team Select an environment that suits your needs, 
 
 The answer depends on what you want to achieve and what packages you need so below are some examples and ideas of where to start, most environments contain Jupyter, pandas and numpy 
-
-
 
 Data collection and handling, this environment contains various libraries to obtain data from a range of sources (make sure to check terms of the 3rd party sites before using)
 
@@ -22,7 +21,6 @@ If you are setting up the environment in a Docker container you might find these
 ## Conda Environments
 
 The <i>yml</i> folder contains anaconda environment yml files and a read me that describes at a high level their contents.
-
 
 ## How do I add my own changes to an environment?
 Once created and published we consider environments to be immutable. When making any alterations or additions please submit the new environment via a pull request with the new environment numbered sequentially from the highest number environment below.
@@ -121,6 +119,53 @@ Removing the hashes from a yml file aids the imports into Linux where the compil
 
 [MinkowskiEngine](https://github.com/NVIDIA/MinkowskiEngine#cuda-11x)
  pip install -U git+https://github.com/NVIDIA/MinkowskiEngine -v --no-deps --install-option="--blas_include_dirs=${CONDA_PREFIX}/include" --install-option="--blas=openblas"
+
+### E044
+Environment designed to support machine learning research, including data exploration, pre-processing, model development, training, and deployment. This environment includes libraries such as PyTorch, MLflow (for experiment tracking and reproducibility), NumPy, Pandas, Dask, and Matplotlib, as well as tools for visualisation (Matplotlib) among others
+
+Channels:
+ - pytorch
+ - nvidia
+ - huggingface
+ - conda-forge
+ - anaconda
+ - defaults
+
+To provides:
+* python
+* pytorch 2.3.0
+* mlflow
+* numpy
+* pillow
+* pandas
+* dask
+* pyarrow
+* fastparquet
+* pandas-profiling
+* xlrd
+* sqlite
+* matplotlib
+* jupyterlab
+* jupyter_contrib_nbextensions
+* ipywidgets
+* widgetsnbextension
+* xlrd
+* sqlite
+* matplotlib
+* nodejs
+* graphviz
+* accelerate
+* kornia
+* wandb
+* matplotlib
+* tqdm
+* webdataset
+* wandb
+* munch
+* onnxruntime
+* einops
+* onnx2torch
+
 
 ### E043
 Copy of E041 with updated packages and HuggingFace transformers added used with gpt-neo.
