@@ -25,9 +25,6 @@ The <i>yml</i> folder contains anaconda environment yml files and a read me that
 ## How do I add my own changes to an environment?
 Once created and published we consider environments to be immutable. When making any alterations or additions please submit the new environment via a pull request with the new environment numbered sequentially from the highest number environment below.
 
-#### I want to do some analysis and maybe dabble with running deep learning [inferences](https://en.wikipedia.org/wiki/Inference "inferences") using  [Tensorflow](https://www.tensorflow.org/, "Tensorflow")
-[E011] can be a great place to start, it contains a great selection of packages and is currently being used successfully to deliver some great analytics in a corporate context. Strongly consider starting here unless you know you need more.
-
 #### I want to do get serious about deep learning with [PyTorch]("https://pytorch.org/")
 [E041] provides pytorch
 
