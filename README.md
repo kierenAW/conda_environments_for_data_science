@@ -28,8 +28,6 @@ Once created and published we consider environments to be immutable. When making
 #### I want to do get serious about deep learning with [PyTorch]("https://pytorch.org/")
 [E041] provides pytorch
 
-#### I really need TensorFlow 1.6 and Python 3.6 with open CV
-[E006] provides this exact environment and was used for [DeepLab]("https://github.com/tensorflow/models/tree/master/research/deeplab") training 
 
 ## More info
 Each environment is created sequentially numbered to allow for versioning and easy tracking.
@@ -37,6 +35,7 @@ Each environment is created sequentially numbered to allow for versioning and ea
 e.g. <i>Environment 001</i> which gets called <i>E001</i>
 
 Most of the environments are created by importing a previous environment and updating and adding additional packages. 
+
 
 ## YML Files
 
