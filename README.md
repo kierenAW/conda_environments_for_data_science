@@ -1,5 +1,19 @@
 # Conda Environments for Data Science
 
+
+**NOTE: This repository is not being maintained and new environments are being created the [containerised repository](https://github.com/kierenAW/containerised_environments_for_data_science/).
+
+Containerised environments are able to use Conda environments in addition other package management systems and offer a number of advantages over locally run Conda Environments, these include:
+
+- Isolation: Containers provide isolation between applications, preventing dependency conflicts.
+- Scalability: Containers are lightweight and can be scaled up or down to meet demands, providing flexibility in resource allocation.
+- Dependency Management: Dependencies are encapsulated within the container, reducing conflicts.
+- Environment Consistency: Ensures the same environment is used in development, testing, and production.
+- Reproducibility and Portability: Containers can be easily transferred between machines or environments, making them portable.
+ **
+ 
+
+ ## How to use this repo
 This repository contains conda environment configuration files for Data Engineering, Data Science (including Machine Learning), and related projects. The goal is to establish standardised environments that can be easily shared across multiple projects, reducing the number of virtual environments on each computer and facilitating collaboration among team members.
 
 New environments are created when packages are added, removed, or upgraded. Once an environment specification is defined and published in a YAML file, we consider it immutable. Any changes require creating a new environment to ensure environments are reproducible and maintainable.
